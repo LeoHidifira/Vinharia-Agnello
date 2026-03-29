@@ -7,3 +7,10 @@ console.log('-----------CADASTRO REALIZADO!-----------');
 console.log(`Nome de usuário: ${cadastro}`);
 console.log(`Senha: ${senha}`);
 console.log('-------------FIM DO CADASTRO-------------');
+
+let nomeVinho = prompt('Digite o nome do vinho: ');
+let tipoVinho = prompt('Digite o tipo do vinho(Tinto/Branco/Rosé): ');
+let safraVinho = parseInt(prompt('Digite a safra do vinho: '));
+let quantidadeVinho = prompt('Digite a quantidade em estoque: ');
+ 
+alert('Veja as informações do vinho no console.');
